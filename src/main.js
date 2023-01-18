@@ -71,7 +71,7 @@ app.use(cookieParser())
 // Almacenar la sesion
 
 var store = new mongo({
-    uri:  'mongodb+srv://hernan1:LaMiSol-5210-22@cluster0.rdsklm0.mongodb.net/test',
+    uri:  'mongodb+srv://hernan1:clave@cluster0.rdsklm0.mongodb.net/test',
     collection: 'mySessions'
   });
 
